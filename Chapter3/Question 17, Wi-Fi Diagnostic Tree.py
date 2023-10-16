@@ -5,6 +5,8 @@
 print("This is a guide to fixing your router's Wi-Fi connection.")
 print("Please follow the steps below to ensure the best results.")
 
+#The best way to create the diagnostic tree was a series of if-else statements. This is because there are multiple questions and multiple answers being utilized in the diagnostic.
+
 #Step 1, Reboot the computer
 print("Step 1: Reset the Computer.")
 computer_reset = input("Did resetting your computer work? (yes/no)").lower()
